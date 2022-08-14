@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FizzBuzz</title>
+    <link rel="stylesheet" href="dist/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <script src="src/js/script.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="card">
+        <div class="form-control">
+          <h1>Pick a number:</h1>
+          <input
+            class="number-input"
+            data-inputNumber
+            placeholder="0"
+            type="number"
+          />
+          <button class="btn" type="submit" value="submit">Submit</button>
+        </div>
+        <div class="form-control">
+          <h2 data-pickedNumber class="picked-number"></h2>
+          <div class="result-wrapper"></div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
